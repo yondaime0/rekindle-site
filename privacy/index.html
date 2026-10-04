@@ -9,15 +9,15 @@
 </head>
 <body>
 <main>
-  <nav><a href="../">Rekindle</a><a href="./">Privacy</a><a href="../delete-account/">Delete your account</a></nav>
+  <nav><a href="../">Rekindle</a><a href="./">Privacy</a><a href="../terms/">Terms</a><a href="../delete-account/">Delete your account</a></nav>
   <h1>Privacy policy</h1>
-  <p class="muted">Last updated 3 October 2026</p>
+  <p class="muted">Last updated 4 October 2026</p>
 
   <h2>1. Who is responsible</h2>
-  <p>Rekindle is made by an individual developer, who is the data controller for the optional sync service. Contact: <a href="mailto:yondaime869@gmail.com">yondaime869@gmail.com</a>.</p>
+  <p>Rekindle is made by Volodymyr, an individual developer, who is the data controller for the optional sync service and Rekindle Pro. Contact: <a href="mailto:yondaime869@gmail.com">yondaime869@gmail.com</a>.</p>
 
-  <h2>2. Without an account, nothing leaves your phone</h2>
-  <p>You can use Rekindle without signing in. Your habits, check-ins, reminders and settings are then stored only on your phone. We receive nothing.</p>
+  <h2>2. Without an account, your habits stay on your phone</h2>
+  <p>You can use Rekindle without signing in. Your habits, check-ins, reminders and settings are then stored only on your phone. We receive none of them. To check whether you have Rekindle Pro, the app asks Google Play and RevenueCat when it starts, using a random ID and no habit data (see section 4).</p>
 
   <h2>3. With sync turned on</h2>
   <p>If you choose <strong>Sync with Google</strong> in Settings, we store the following so your habits appear on all your phones:</p>
@@ -31,35 +31,49 @@
   <p>Reminder times and device preferences (theme, language, time format) are <strong>not</strong> collected. They stay on each phone.</p>
   <p>The data is stored by Supabase in Paris, France (EU), and is used only to sign you in and sync your habits. It is sent over an encrypted connection (HTTPS).</p>
 
-  <h2>4. Legal basis</h2>
-  <p>We process this data to provide the sync you asked for (GDPR art. 6(1)(b), performance of a contract).</p>
+  <p>Sync is part of Rekindle Pro. It needs an active subscription (or Pro included with your account).</p>
 
-  <h2>5. How long we keep it</h2>
-  <p>Until you delete your account. Deleting it removes your account and all synced data from the database immediately. The hosting provider's daily backups, where the plan includes them, are kept for at most 7 days and then deleted, under the Supabase Data Processing Addendum. If you signed out and stopped using sync, your data stays until you delete the account or ask us to.</p>
+  <h2>4. Rekindle Pro purchases</h2>
+  <p>Rekindle Pro is sold through <strong>Google Play billing</strong>. Google handles the payment under its own privacy policy; we never see your card or payment details. To check and keep your subscription, the app uses <strong>RevenueCat</strong>, which receives:</p>
+  <ul>
+    <li>an app user ID: your Rekindle account ID if you are signed in, otherwise a random ID created on your phone;</li>
+    <li>your purchase history for Rekindle Pro (product, purchase and renewal dates, trial, cancellation and refund status, and the Google Play purchase token);</li>
+    <li>technical data from the app's requests: IP address, device model, operating system and app version.</li>
+  </ul>
+  <p>We don't send RevenueCat your name, email or habits, and we don't collect advertising or device identifiers. When you are signed in, our server also stores your subscription status (plan, renewal or end date, trial, billing issue, refund) and a short log of RevenueCat events (kept 90 days), so sync can check that Pro is active.</p>
+  <p>Cancel your subscription in Google Play (Play Store → profile picture → <strong>Payments &amp; subscriptions → Subscriptions</strong>). Deleting your Rekindle account doesn't cancel it.</p>
 
-  <h2>6. Your rights</h2>
+  <h2>5. Legal basis</h2>
+  <p>We process this data to provide the sync and the subscription you asked for (GDPR art. 6(1)(b), performance of a contract).</p>
+
+  <h2>6. How long we keep it</h2>
+  <p>Until you delete your account. Deleting it removes your account, all synced data and the subscription status we store from the database immediately. The hosting provider's daily backups, where the plan includes them, are kept for at most 7 days and then deleted, under the Supabase Data Processing Addendum. If you signed out and stopped using sync, your data stays until you delete the account or ask us to.</p>
+  <p>When Rekindle Pro ends, sync stops and your account keeps its copy of your habits for 180 days, so you can pick up again if you resubscribe. After that the synced habits, check-ins and comebacks are deleted; your account itself stays until you delete it. RevenueCat keeps purchase records as long as needed for billing and accounting, and deletes the ones linked to your account when you ask us.</p>
+
+  <h2>7. Your rights</h2>
   <p>You can ask for access to your data, a copy of it (export and portability), correction or erasure, and you can complain to your data protection authority. Write to <a href="mailto:yondaime869@gmail.com">yondaime869@gmail.com</a>. To delete everything, see <a href="../delete-account/">Delete your account</a>.</p>
 
-  <h2>7. Processors</h2>
+  <h2>8. Processors</h2>
   <ul>
     <li><strong>Supabase</strong> stores the synced data (Data Processing Addendum signed).</li>
-    <li><strong>Google</strong> handles sign-in. We request only your email, name and basic profile.</li>
+    <li><strong>Google</strong> handles sign-in. We request only your email, name and basic profile. Google Play handles subscription payments.</li>
+    <li><strong>RevenueCat</strong> (RevenueCat, Inc., USA) checks and records Rekindle Pro purchases, as described in section 4, under its Data Processing Addendum and the EU Standard Contractual Clauses.</li>
   </ul>
   <p>Your data is not sold or shared with anyone else.</p>
 
-  <h2>8. No ads, no tracking</h2>
+  <h2>9. No ads, no tracking</h2>
   <p>Rekindle has no ads, no trackers and no analytics that leave your phone. The app keeps a small usage and diagnostic log on your phone only (for example "a habit was created"; never habit names). It is never sent to us.</p>
 
-  <h2>9. Children</h2>
-  <p>Rekindle is not directed at children under 13, or under 16 in the EU. If you are younger, please don't turn on sync.</p>
+  <h2>10. Children</h2>
+  <p>Rekindle is not directed at children under 13, or under 16 in the EU. If you are younger, please don't turn on sync or buy Rekindle Pro.</p>
 
-  <h2>10. Security</h2>
+  <h2>11. Security</h2>
   <p>Data is encrypted in transit (HTTPS). Each account can read only its own rows, and all writes go through checked server functions. If a breach affects your data, we will tell you and the authority as the law requires.</p>
 
-  <h2>11. Changes</h2>
+  <h2>12. Changes</h2>
   <p>If this policy changes, the new version is posted here with a new date. Significant changes are also shown in the app.</p>
 
-  <footer>Questions: <a href="mailto:yondaime869@gmail.com">yondaime869@gmail.com</a></footer>
+  <footer>Rekindle · <a href="../terms/">Terms of Use</a> · Questions: <a href="mailto:yondaime869@gmail.com">yondaime869@gmail.com</a></footer>
 </main>
 </body>
 </html>

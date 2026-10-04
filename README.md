@@ -5,6 +5,7 @@ Static pages for Rekindle, served by GitHub Pages from the **public** repo `yond
 - https://yondaime0.github.io/rekindle-site/ (home)
 - https://yondaime0.github.io/rekindle-site/privacy/ (privacy policy, linked from the app and Google's consent screen)
 - https://yondaime0.github.io/rekindle-site/delete-account/ (account deletion, the Play Data safety deletion URL)
+- https://yondaime0.github.io/rekindle-site/terms/ (Terms of Use, linked from the paywall)
 
 No JavaScript, no trackers, no build step. Contact: yondaime869@gmail.com.
 
